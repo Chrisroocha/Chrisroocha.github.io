@@ -221,7 +221,7 @@ section.portfolio .flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5px;
+    gap: 3px;
 }
 .img-port{ 
     width: 424px;
