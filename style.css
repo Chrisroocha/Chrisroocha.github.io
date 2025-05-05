@@ -246,6 +246,17 @@ section.portfolio{
     transition: .5;
 }
 
+.img-port {
+    width: 424px;
+    height: 230px;
+    background-color: #00ff08;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    margin: 10px; /* espaçamento externo opcional */
+}
+
 .overlay:hover{
     opacity: 1;
 }
