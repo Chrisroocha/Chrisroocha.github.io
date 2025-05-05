@@ -250,12 +250,16 @@ section.portfolio{
     width: 424px;
     height: 230px;
     background-color: #00ff08;
+    background-size: cover;        /* Faz a imagem cobrir todo o espaço */
+    background-position: center;   /* Centraliza a imagem */
+    background-repeat: no-repeat;  /* Evita que a imagem repita */
     text-align: center;
     border-radius: 20px;
     cursor: pointer;
     position: relative;
-    margin: 10px; /* espaçamento externo opcional */
+    margin: 10px;
 }
+
 
 .overlay:hover{
     opacity: 1;
